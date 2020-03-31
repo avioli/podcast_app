@@ -4,16 +4,9 @@ part 'podcast_item.g.dart';
 
 @JsonSerializable(nullable: false)
 class PodCastItem {
-  @JsonKey(name: "id")
   final String id;
-
-  @JsonKey(name: "artistName")
   final String artistName;
-
-  @JsonKey(name: "name")
   final String name;
-
-  @JsonKey(name: "artworkUrl100")
   final String artworkUrl100;
 
   PodCastItem(

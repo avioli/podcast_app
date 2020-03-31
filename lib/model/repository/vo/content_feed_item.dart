@@ -4,13 +4,8 @@ part 'content_feed_item.g.dart';
 
 @JsonSerializable(nullable: false)
 class ContentFeedItem {
-  @JsonKey(name: "title")
   final String title;
-
-  @JsonKey(name: "desc")
   final String desc;
-
-  @JsonKey(name: "contentUrl")
   final String contentUrl;
 
   ContentFeedItem(

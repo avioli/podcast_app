@@ -5,22 +5,12 @@ part 'collection_item.g.dart';
 
 @JsonSerializable(nullable: false)
 class CollectionItem {
-  @JsonKey(name: "collectionId")
   final int collectionId;
-
-  @JsonKey(name: "collectionName")
   final String collectionName;
 
-  @JsonKey(name: "artistId")
   final int artistId;
-
-  @JsonKey(name: "artistName")
   final String artistName;
-
-  @JsonKey(name: "artworkUrl100")
   final String artworkUrl100;
-
-  @JsonKey(name: "artworkUrl600")
   final String artworkUrl600;
 
   @JsonKey(name: "contentFeed")
